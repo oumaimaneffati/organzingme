@@ -1,0 +1,8 @@
+name: 'app'
+type: 'php:8.2'
+hooks:
+  build: |
+    # Commandes pour construire votre application, par exemple, composer install
+  deploy: |
+    # Commandes supplémentaires à exécuter lors du déploiement
+stack: php
