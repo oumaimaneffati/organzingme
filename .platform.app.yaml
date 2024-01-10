@@ -5,4 +5,3 @@ hooks:
     # Commandes pour construire votre application, par exemple, composer install
   deploy: |
     # Commandes supplémentaires à exécuter lors du déploiement
-stack: php
