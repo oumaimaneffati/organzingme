@@ -5,3 +5,13 @@ hooks:
     # Commandes pour construire votre application, par exemple, composer install
   deploy: |
     # Commandes supplémentaires à exécuter lors du déploiement
+web:
+  locations:
+    "/":
+      root: "public/"
+      try_files: $uri /index.php$is_args$args
+      gzip: true
+      expires: max
+      allow: true
+      index:
+        - index.php

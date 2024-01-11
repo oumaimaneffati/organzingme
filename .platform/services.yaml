@@ -1,0 +1,3 @@
+# Exemple pour une base de données MySQL
+database:
+  type: mysql:8.0
